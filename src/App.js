@@ -3,10 +3,12 @@ import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Header from './components/layouts/Header';
 
+import './assets/scss/style.scss';
+
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="wrap">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

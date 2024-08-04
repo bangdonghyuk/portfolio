@@ -1,0 +1,46 @@
+@import "./reset.scss";
+
+.wrap{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    &__logo{
+        &-txt{
+        }
+    }
+    &__gnb{
+        &-list{
+            display: flex;
+        }
+        &-item{
+            &+&{
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+}
+
+.home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 52px 0 0 0;
+    
+}
